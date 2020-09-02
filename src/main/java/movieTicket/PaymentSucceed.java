@@ -6,8 +6,6 @@ public class PaymentSucceed extends AbstractEvent {
     private Long paymentId;
     private String paymentType;
     private Long bookingId;
-    private String paymentStatus;
-
 
 
     public void setPaymentStatus(String paymentStatus) {
