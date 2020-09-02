@@ -9,5 +9,5 @@ public interface BookingListRepository extends CrudRepository<BookingList, Long>
 
     List<BookingList> findByBookingId(Long bookingId);
 
-    
+
 }

@@ -38,7 +38,5 @@ public class PaymentSucceed extends AbstractEvent {
         return paymentStatus;
     }
 
-    public void setPaymentStatus(String paymentStatus) {
-        this.paymentStatus = paymentStatus;
-    }
+
 }
