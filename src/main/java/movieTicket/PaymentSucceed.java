@@ -8,9 +8,7 @@ public class PaymentSucceed extends AbstractEvent {
     private Long bookingId;
     private String paymentStatus;
 
-    public String getPaymentStatus() {
-        return paymentStatus;
-    }
+
 
     public void setPaymentStatus(String paymentStatus) {
         this.paymentStatus = paymentStatus;
@@ -39,7 +37,7 @@ public class PaymentSucceed extends AbstractEvent {
     public String getPaymentStatus() {
         return paymentStatus;
     }
-
+    
     public void setPaymentStatus(String paymentStatus) {
         this.paymentStatus = paymentStatus;
     }
